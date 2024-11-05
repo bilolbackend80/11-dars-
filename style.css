@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #9b59b6;
+}
+
+button {
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+
+.container {
+  display: flex;
+  gap: 10px;
+  display: none;
+}
+
+.shape {
+  width: 40px;
+  height: 80px;
+  background-color: #f39c12;
+  border-radius: 10px;
+}
+
+.shape1 {
+  height: 80px;
+  width: 30px;
+}
+
+.shape2 {
+  height: 120px;
+  width: 40px;
+}
+
+.shape3 {
+  height: 50px;
+  width: 30px;
+}
+
+.shape4 {
+  height: 80px;
+  width: 30px;
+}
